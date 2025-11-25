@@ -1,5 +1,4 @@
 #include <string>
-#include <fstream>
 using namespace std;
 
 struct TrieNode {
