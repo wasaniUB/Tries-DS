@@ -29,11 +29,11 @@ int main() {
           }
 
          if (t.search(word)) {
-             cout << "'" << word << "' is spelled correctly.\n";
+             cout << " ✅ '" << word << "' is spelled correctly.\n";
          } 
        
           else {
-             cout << word << "' is NOT in the dictionary.\n";
+             cout << " ❌ '" << word << "' is NOT in the dictionary.\n";
 
              vector<string> suggestions = getSuggestions(t, word);
   
