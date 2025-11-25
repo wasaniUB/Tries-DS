@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-<<<<<<< HEAD
 #include <string>
 #include <vector>
 #include "trie.h"
